@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Add your styles for the dropdown here */
+      #results {
+        display: none;
+        border: 1px solid #ccc;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--------------------------------NAVBAR--------------------------------------->
+    <!--------------------------------NAVBAR--------------------------------------->
+    <!--------------------------------NAVBAR--------------------------------------->
+    <!--------------------------------NAVBAR--------------------------------------->
+    <!--------------------------------NAVBAR--------------------------------------->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">Hidden brand</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--------------------------------HERO--------------------------------------->
+    <!--------------------------------HERO--------------------------------------->
+    <!--------------------------------HERO--------------------------------------->
+    <!--------------------------------HERO--------------------------------------->
+    <!--------------------------------HERO--------------------------------------->
+
+    <section id="hero">
+      <img
+        src="assets/images/you-died.png"
+        alt="DARK SOULS YOU DIED TEXT"
+        srcset=""
+        class="nav-img"
+      />
+      <h1><span class="you-died"> </span> HOW MANY TIME?!</h1>
+    </section>
+
+    <!--------------------------------PICK A BOSS--------------------------------------->
+    <!--------------------------------PICK A BOSS--------------------------------------->
+    <!--------------------------------PICK A BOSS--------------------------------------->
+    <!--------------------------------PICK A BOSS--------------------------------------->
+
+    <section>
+      <h2 class="nav-title">
+        BOSS LIST
+        <img
+          src="assets/images/boss-image.png"
+          alt="BOSS LIST IMAGE"
+          srcset=""
+          class="nav-img"
+        />
+      </h2>
+    </section>
+    <section>
+      <label for="searchInput">Search:</label>
+      <input type="text" id="searchInput" oninput="handleInput()" />
+
+      <div id="results">
+        <select id="resultsDropdown" size="5" style="width: 100%"></select>
+      </div>
+    </section>
+  </body>
+  <script src="index.js"></script>
+</html>

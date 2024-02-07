@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Dropdown Filter</title>
+  </head>
+  <nav>
+    <nav-item>Home</nav-item>
+    <nav-item>Data</nav-item>
+  </nav>
+  <body>
+    <section class="intro-section">
+      <h1>You Died How Many Times?</h1>
+      <p>A fun way to keep track of boss deaths</p>
+      <p>
+        I made this counter tool so that you can keep track of your deaths when
+        fighting tough bosses. I wanted to use Elden Ring as a starter point, to
+        allow the user a fun way to keep track of personal deaths(per character
+        or per profile) as well as community deaths.
+      </p>
+      <p>
+        Search for and select the boss you are currently fighting, and use the
+        counter for every death that occurs. Select the'enemy felled' button
+        once you have...well..Felled the Enemy
+      </p>
+    </section>
+
+    <section id="dropdown-section">
+      <input type="text" id="searchInput" placeholder="Type to filter" />
+      <select id="resultsDropdown"></select>
+    </section>
+    <section id="counter-section">
+      <p>the current boss selected is:</p>
+      <h1 id="selected-boss"></h1>
+      <!--Make this an input field later to save profiles.-->
+      <h2>your character name:</h2>
+    </section>
+
+    <section id="data-section"></section>
+    <!--Make this data section a seperate page?-->
+  </body>
+</html>
